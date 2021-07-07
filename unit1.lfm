@@ -1,0 +1,308 @@
+object Form1: TForm1
+  Left = 374
+  Height = 484
+  Top = 324
+  Width = 820
+  Caption = 'Form1'
+  ClientHeight = 484
+  ClientWidth = 820
+  OnShow = FormShow
+  LCLVersion = '2.0.10.0'
+  object Proses: TButton
+    Left = 40
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Proses'
+    OnClick = ProsesClick
+    TabOrder = 0
+  end
+  object ScrollBox1: TScrollBox
+    Left = 168
+    Height = 416
+    Top = 24
+    Width = 624
+    HorzScrollBar.Page = 303
+    VertScrollBar.Page = 412
+    ClientHeight = 412
+    ClientWidth = 603
+    TabOrder = 1
+    object Panel3: TPanel
+      AnchorSideTop.Control = Panel1
+      AnchorSideTop.Side = asrBottom
+      Left = 16
+      Height = 92
+      Top = 164
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Top = 40
+      Caption = 'Source2'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 0
+      object Source2: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Panel2: TPanel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrBottom
+      Left = 208
+      Height = 92
+      Top = 32
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Left = 100
+      Caption = 'Click To Load'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 1
+      object Target1: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+        OnClick = Target1Click
+      end
+    end
+    object Panel1: TPanel
+      Left = 16
+      Height = 92
+      Top = 32
+      Width = 92
+      AutoSize = True
+      Caption = 'Click To Load'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 2
+      object Source1: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+        OnClick = Source1Click
+      end
+    end
+    object Panel4: TPanel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = Panel2
+      AnchorSideTop.Side = asrBottom
+      Left = 208
+      Height = 92
+      Top = 164
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Left = 100
+      BorderSpacing.Top = 40
+      Caption = 'Target2'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 3
+      object Target2: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Panel5: TPanel
+      AnchorSideLeft.Control = Panel3
+      AnchorSideTop.Control = Panel3
+      AnchorSideTop.Side = asrBottom
+      Left = 16
+      Height = 92
+      Top = 296
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Top = 40
+      Caption = 'Source3'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 4
+      object Source3: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Panel6: TPanel
+      AnchorSideLeft.Control = Panel5
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = Panel4
+      AnchorSideTop.Side = asrBottom
+      Left = 208
+      Height = 92
+      Top = 296
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Left = 100
+      BorderSpacing.Top = 40
+      Caption = 'Target3'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 5
+      object Target3: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Panel7: TPanel
+      AnchorSideLeft.Control = Panel5
+      AnchorSideTop.Control = Panel5
+      AnchorSideTop.Side = asrBottom
+      Left = 16
+      Height = 92
+      Top = 428
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Top = 40
+      Caption = 'Panel7'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 6
+      object Source4: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Panel8: TPanel
+      AnchorSideLeft.Control = Panel7
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = Panel6
+      AnchorSideTop.Side = asrBottom
+      Left = 208
+      Height = 92
+      Top = 428
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Left = 100
+      BorderSpacing.Top = 40
+      Caption = 'Panel8'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 7
+      object Target4: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Panel10: TPanel
+      AnchorSideLeft.Control = Panel7
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = Panel7
+      AnchorSideTop.Side = asrBottom
+      Left = 208
+      Height = 92
+      Top = 560
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Left = 100
+      BorderSpacing.Top = 40
+      Caption = 'Panel10'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 8
+      object Target5: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Panel12: TPanel
+      AnchorSideLeft.Control = Panel10
+      AnchorSideTop.Control = Panel10
+      AnchorSideTop.Side = asrBottom
+      Left = 208
+      Height = 92
+      Top = 692
+      Width = 92
+      AutoSize = True
+      BorderSpacing.Top = 40
+      Caption = 'Panel12'
+      ClientHeight = 92
+      ClientWidth = 92
+      TabOrder = 9
+      object Target6: TImage
+        Left = 1
+        Height = 90
+        Top = 1
+        Width = 90
+        AutoSize = True
+      end
+    end
+    object Label1: TLabel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrCenter
+      Left = 10
+      Height = 19
+      Top = 9
+      Width = 105
+      Caption = 'Source Image'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      AnchorSideLeft.Control = Panel2
+      AnchorSideLeft.Side = asrCenter
+      Left = 205
+      Height = 19
+      Top = 9
+      Width = 98
+      Caption = 'Target Image'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object Save: TButton
+    Left = 40
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Save'
+    OnClick = SaveClick
+    TabOrder = 2
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Left = 64
+    Top = 136
+  end
+  object SavePictureDialog1: TSavePictureDialog
+    Left = 64
+    Top = 208
+  end
+end
