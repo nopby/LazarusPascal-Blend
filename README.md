@@ -1,4 +1,4 @@
-# LazarusPascal-GenerateBatik
+# LazarusPascal-Blend
 UAS PENGELOLAAN CITRA DIGITAL
 NIM: 32180028
 
